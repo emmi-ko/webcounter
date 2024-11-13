@@ -18,3 +18,7 @@ When button pressed twice the counter is two
 When counter has a nonzero value and it is reset the value becomes zero
     Click Button  Nollaa
     Page Should Contain  nappia painettu 0 kertaa
+When input 10 given counter is ten
+    Input Text  value  10
+    Click Button  aseta
+    Page Should Contain  nappia painettu 10 kertaa
